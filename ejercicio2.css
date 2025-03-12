@@ -1,0 +1,98 @@
+body {
+    background-color: #1d202b;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-concierto {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 70%;
+}
+
+.card {
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    padding: 20px;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.card p {
+    margin: 0;
+    font-size: 18px;
+    text-align: left; 
+    margin-top: 145px; 
+}
+
+.banner {
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    width: 25%;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.banner h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.banner ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 15px; 
+    margin-top: auto; 
+    margin-bottom: auto; 
+}
+
+.banner ul li {
+    font-size: 18px;
+}
+
+.boton {
+    background-color: #fed601;
+    border: none;
+    border-radius: 30px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: auto;
+    width: 100%;
+}
+
+.boton:hover {
+    background-color: #e6c200;
+}
